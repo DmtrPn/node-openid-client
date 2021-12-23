@@ -12,6 +12,7 @@ import * as crypto from 'crypto';
 export type HttpOptions = Partial<
   Pick<
     https.RequestOptions,
+      // @ts-ignore
     | 'agent'
     | 'ca'
     | 'cert'
